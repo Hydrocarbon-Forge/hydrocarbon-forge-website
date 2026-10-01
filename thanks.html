@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Call booked — Hydrocarbon Forge</title>
+  <meta name="robots" content="noindex" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="hf-mark" viewBox="0 0 100 100">
+      <path fill="currentColor" fill-rule="evenodd" d="M50 4 89.8 27v46L50 96 10.2 73V27ZM50 20 24 35v30l26 15 26-15V35Z" />
+      <path fill="#3a3a3a" d="M50 32 65.6 41 50 50 34.4 41Z" />
+      <path fill="#1c1c1c" d="M34.4 41 50 50v18l-15.6-9Z" />
+      <path fill="#0a0a0a" d="M65.6 41 50 50v18l15.6-9Z" />
+    </symbol>
+    <symbol id="hf-ring" viewBox="0 0 100 100">
+      <path fill="currentColor" fill-rule="evenodd" d="M50 4 89.8 27v46L50 96 10.2 73V27ZM50 20 24 35v30l26 15 26-15V35Z" />
+    </symbol>
+  </svg>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a href="index.html" class="logo" aria-label="Hydrocarbon Forge home">
+      <svg class="logo-icon" aria-hidden="true"><use href="#hf-mark" /></svg>
+      <span class="logo-text"><span class="logo-name">Hydrocarbon</span><span class="logo-sub">Forge</span></span>
+    </a>
+    <a href="index.html" class="btn btn-small btn-ghost">Back home</a>
+  </header>
+
+  <main class="thanks">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="glow"></div>
+      <div class="hex-grid"></div>
+      <svg class="hero-hex"><use href="#hf-ring" /></svg>
+    </div>
+    <p class="eyebrow reveal"><span class="dot"></span> Payment received</p>
+    <h1 class="page-title reveal">You're in.</h1>
+    <p class="section-sub reveal" id="thanks-copy">Pick a time for your call below. Bring the idea, sketches, anything that helps.</p>
+    <div class="hero-cta reveal">
+      <a href="#" class="btn" id="booking-btn" target="_blank" rel="noopener">Pick a time →</a>
+      <a href="index.html#pitch" class="btn btn-ghost">Send us your pitch first</a>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
